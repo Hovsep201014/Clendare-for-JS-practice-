@@ -1,0 +1,25 @@
+body{
+ background-color: blue;
+ margin: 0;
+ padding: 0;
+}
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 80px;
+    color:aqua;
+    cursor:grab;
+}
+h2:hover{
+ color:rgb(3, 206, 206);
+ transition: 0.2s;
+}
+#clock{
+ font-size: 60px;
+ font-family: 'Courier New', Courier, monospace;
+ color: aquamarine;
+ cursor: pointer;
+}
+#clock:hover{
+ color:rgb(5, 239, 161);
+ transition: 0.3s;
+}
